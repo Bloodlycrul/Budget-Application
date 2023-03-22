@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 500px;
+  background: linear-gradient(-45deg,rgba(192,108,132,1) 0,rgba(108,91,123,1) 100%);
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: 200;
+}
+
+.container h1 {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.final-output{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.income {
+  margin: auto;
+  margin-top: 30px;
+  width: 600px;
+  height: 50px;
+  background-color: #355c7d;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.345);
+}
+
+.income p {
+  font-size: 20px;
+}
+
+.expences {
+  margin: auto;
+  width: 600px;
+  height: 50px;
+  background-color: #f67280;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.345);
+}
+
+.expences p {
+  font-size: 20px;
+}
+
+.right-padding {
+  padding-right: 20px;
+  overflow: auto;
+}
+
+.value{
+    width: 100vw;
+    height: 100px;
+    background-color: #f7f7f7;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.selector select{
+    padding: 10px;
+}
+
+.selector input{
+    padding: 7px;
+}
+
+.selector svg{
+    align-items: center;
+}
+
+.des{
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.inc{
+  margin: auto;
+  margin-top: 20px;
+  width: 350px;
+  background-color: rgba(144, 238, 144, 0.681);
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.exp{
+  margin: auto;
+  margin-top: 20px;
+  width: 350px;
+  background-color: rgba(247, 45, 45, 0.71);
+  text-align: center;
+  
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+#text{
+  overflow: auto;
+}
+
+
+
+@media (max-width : 720px){
+  body{
+    width: 100vw;
+  }
+
+
+  .income {
+    width: auto;
+  }
+
+  .expences{
+    width: auto;
+  }
+
+  .value{
+    width: auto;
+    background-color: #f7f7f7;
+   display: inline-block;
+}
+
+.selector select{
+  padding: 0px;
+}
+
+.selector select{
+  padding: 0px;
+}
+
+.selector input{
+  padding: 0px;
+}
+
+#text{
+  width: 140px;
+}
+
+#number{
+  width: 137px;
+}
+
+#btn{
+  text-align: center;
+  margin: auto;
+  width: auto;
+  margin-top: 20px;
+}
+
+.inc{
+  width: auto;
+ 
+}
+
+.exp{
+  
+  width: auto;
+}
+
+
+  
+}
