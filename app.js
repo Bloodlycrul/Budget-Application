@@ -21,7 +21,7 @@ function calculate() {
     cont.appendChild(p);
 
   if (number.value === 0 || text.value === "") {
-    alert('Please enter the value')
+    alert('Description and Value Required to be filled')
   }
   else if (add.selected) {
     let intotal = number.value;
