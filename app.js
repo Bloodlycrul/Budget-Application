@@ -20,7 +20,7 @@ function calculate() {
     let p = document.createElement('p');
     cont.appendChild(p);
 
-  if (number.value == 0) {
+  if (number.value === 0) {
     alert('Please enter the value')
   }
   if (add.selected) {
